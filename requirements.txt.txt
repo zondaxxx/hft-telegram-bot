@@ -1,0 +1,6 @@
+aiogram
+openpyx1
+aiosqlite
+pydantic
+pydatnic-settings
+asyncio
