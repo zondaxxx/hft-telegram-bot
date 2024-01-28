@@ -30,4 +30,8 @@ pip install asyncio
 ### 3. Создайте бота в [BotFather](https://t.me/BotFather)
 На этом шаге вам нужно вставить токен бота в .env который вы создали
 
+### 4. Запустите бота
+```
+python3 bot.py
+```
 # Создано Zondaxxx
