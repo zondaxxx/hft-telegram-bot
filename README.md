@@ -35,3 +35,4 @@ pip install asyncio
 python3 bot.py
 ```
 # Создано Zondaxxx
+https://t.me/elemantery_bot
