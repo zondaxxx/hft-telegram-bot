@@ -7,9 +7,9 @@ from aiogram.types import (
 main_tch = ReplyKeyboardMarkup(
     keyboard=[
         [
-            KeyboardButton(text="Создать тест📗"),
-            KeyboardButton(text="Мои тесты📕"),
-            KeyboardButton(text="Результаты тестов📘")
+            KeyboardButton(text="Создать тест 📗"),
+            KeyboardButton(text="Мои тесты 📕"),
+            KeyboardButton(text="Результаты тестов 📘")
         ]
     ],
     resize_keyboard=True,
