@@ -2,7 +2,7 @@ from random import shuffle
 
 slovari = [list('ABCDEFGHIJKLMNOPQRSTUVWXYZ'),
            list('abcdefghijklmnopqrstuvwxyz'),
-           list('123456789')]
+           list('1234567890')]
 
 def test_name(sl = slovari) -> str:
     name = str()
