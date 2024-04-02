@@ -12,7 +12,7 @@ from utils.states import Result_test
 
 router = Router()
 
-@router.message(F.text == "Отмена❌")
+@router.message(F.text == "Отмена ❌")
 async def create_test(message: Message, state: FSMContext):
     await state.clear()
     fl = await DataBase.check(["tg_id", "role"], message.chat.id)
@@ -21,7 +21,7 @@ async def create_test(message: Message, state: FSMContext):
         "Главное меню:",
         reply_markup=main_tch)
 
-@router.message(F.text.lower() == "результаты тестов📘")
+@router.message(F.text.lower() == "результаты тестов 📘")
 async def result_test(message: Message, state: FSMContext):
     fl = await DataBase.check(["tg_id", "role"], message.chat.id)
 
@@ -60,12 +60,12 @@ async def chek_t(message: Message, state: FSMContext):
             await state.clear()
         else:
             await message.answer("Неверный код мероприятия, попробуйте еще раз",
-                                 reply_markup=generator("Отмена❌"))
+                                 reply_markup=generator("Отмена ❌"))
     else:
         await message.answer("Неверный код мероприятия, попробуйте еще раз",
-                             reply_markup=generator("Отмена❌"))
+                             reply_markup=generator("Отмена ❌"))
 
 @router.message(Result_test.check_t, ~F.text)
 async def inc_chek_t(message: Message, state: FSMContext):
     await message.answer("Неверный код мероприятия, попробуйте еще раз",
-                         reply_markup=generator("Отмена❌"))
+                         reply_markup=generator("Отмена ❌"))
