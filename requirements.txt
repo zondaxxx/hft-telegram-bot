@@ -1,6 +1,6 @@
-aiogram
-openpyx1
+aiogram=3.3.0
+openpyxl
 aiosqlite
 pydantic
-pydatnic-settings
+pydantic-settings
 asyncio
