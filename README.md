@@ -57,4 +57,4 @@ python3 bot.py
 После этого нужно прожать два сочетания клавиш: Ctrl + A, Ctrl + D (Строго по очереди)
 Профит!
 # Создано Zondaxxx
-https://t.me/elemantery_bot
+https://t.me/elemantery_bot - Тестовый бот, работает.
