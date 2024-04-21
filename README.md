@@ -18,7 +18,7 @@
 cd / (или любую директорию, как вам удобно)
 git clone https://github.com/zondaxxx/hft-telegram-bot/
 ```
-### 2. Установите библиотеки:
+### 2. Установите библиотеки: (и Python)
 ```
 pip install aiogram
 pip install openpyxl
